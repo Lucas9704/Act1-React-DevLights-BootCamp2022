@@ -8,3 +8,25 @@
     background-image: url(./background.svg);
     background-position: center;
 }
+
+.LoginContainer {
+    left: 23%;
+    top: 25.28%;
+    width: 53vw;
+    max-height: 60vh;
+    position: absolute;
+}
+
+.title {
+    font-family: 'Inter';
+    font-size: 1.2em;
+    line-height: 32px;
+    color: #FFFFFF;
+    width: 100vw;
+    height: -moz-fit-content;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    margin-top: 4%;
+    font-weight: 400;
+}
