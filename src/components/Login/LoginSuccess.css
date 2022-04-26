@@ -1,9 +1,25 @@
-.LoginSuccess {
+.LoginSuccessStudent {
     display: flex;
     flex-direction: column;
     background-color: #FFFFFF;
     border-radius: 10px;
     padding: 5%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(./stu.png);
+    background-position: center;
+}
+
+.LoginSuccessTeacher {
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    padding: 5%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(./dev.jpg);
+    background-position: top;
 }
 
 .LoginSuccessContainer {
@@ -28,13 +44,38 @@
     padding: 1.5%;
 }
 
+.titleSuccess {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1em;
+    line-height: 19px;
+    margin-bottom: 10%;
+    padding: 1.5%;
+    margin-top: 1.5%;
+    color: #000000;
+}
+
+.titleSuccessT {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1em;
+    line-height: 19px;
+    margin-bottom: 10%;
+    padding: 1.5%;
+    margin-top: 1.5%;
+    color: #ffffff;
+}
+
 .subtitle {
     font-family: 'Inter', sans-serif;
     font-style: normal;
-    font-weight: 500;
-    font-size: 1.2em;
+    font-weight: bold;
+    font-size: 1em;
     line-height: 19px;
-    margin-bottom: 1.91%;
-    padding: 1.5%;
-    margin-top: 1.5%;
+    margin-bottom: 1%;
+    padding: 1%;
+    margin-top: 1%;
+    color: #000749;
 }
