@@ -104,8 +104,8 @@ export function LoginForm() {
                 </button>
                 </div>
             </div>
-            <div className="forgotPasswordContainer" onClick={() => {}} > <a href=""> Forgot your password? </a></div>
-            <div className="forgotPasswordContainer" onClick={() => {}} > <a href="#"> Register your account</a></div>
+            <div className="forgotPasswordContainer" > <a href="."> Forgot your password? </a></div>
+            <div className="forgotPasswordContainer" > <a href="."> Register your account</a></div>
             <div className="userTypeContainer">
                 <button className="LoginFormButton" onClick={handleSubmit} >Sing In</button>
             </div>
